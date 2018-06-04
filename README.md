@@ -13,4 +13,4 @@ Check out the pages here or check out the page [here](https://disjfa.github.io/a
 If you want to contribute and have an awesome tool we can use on the web please just edit a page and commit your change. 
 We only know what we know so more is more awesome! Together we can make an awesome list.
 
-Just keep in mind, commit one url at a time so we can see and manage the pull requests.
+Just keep in mind, commit one url at a time so we can see and manage the pull requests. And i would like all tools to be open source. There are lost of tools using a paywall and are still awesome. But we would like a list of open examples people can just use.
