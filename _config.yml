@@ -7,7 +7,7 @@ url: "https://disjfa.github.io"
 twitter_username: disjfa
 github_username:  disjfa
 github_url:  https://github.com/disjfa/awesome-css-tools
-github_base: /tree/master/site/
+github_base: /blob/master/
 
 markdown: kramdown
 host: 0.0.0.0
