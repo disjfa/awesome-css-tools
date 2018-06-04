@@ -4,25 +4,29 @@ group: main
 title: Home
 layout: home
 ---
-
-<h1>{{ page.title }}</h1>
-
-<p class="lead">
-    {{ site.description }}
-</p>
-{% for page in site.pages %}
-    {% if page.type %}
-        <hr>
-        <div class="pb-3">
-            <h3>{{ page.title }}</h3>
-            <p>
-                {{ page.lead }}
-            </p>
-            <a href="{{ page.url | prepend: site.baseurl }}" aria-label="Read more about {{ page.title }}">
-                <i class="fa fa-arrow-right"></i>
-                Read more
-            </a>
+<div class="ryoko" style="background-image: url({{ '/img/cool-background.png' | prepend: site.baseurl }})">
+    <div class="ryoko-body">
+        <div class="ryoko-faded ryoko-shadow text-white px-3 py-3 my-3 mx-3">
+            <h1>{{ page.title }}</h1>
+            <p>{{ site.description }}</p>
         </div>
-    {% endif %}
-{% endfor %}
+    </div>
+</div>
 
+<div class="container py-3">
+    {% for page in site.pages %}
+        {% if page.type %}
+            <div class="pb-3">
+                <h3>{{ page.title }}</h3>
+                <p>
+                    {{ page.lead }}
+                </p>
+                <a href="{{ page.url | prepend: site.baseurl }}" aria-label="Read more about {{ page.title }}">
+                    <i class="fa fa-arrow-right"></i>
+                    Read more
+                </a>
+            </div>
+            <hr>
+        {% endif %}
+    {% endfor %}
+</div>

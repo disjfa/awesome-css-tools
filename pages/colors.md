@@ -15,3 +15,9 @@ Open color is an open-source color scheme Optimized for UI like font, background
 ### [Flat ui colors](https://flatuicolors.com/)
 
 280 handpicked colors ready for COPY & PASTE
+
+---
+
+### [CSS Gradient](https://cssgradient.io)
+
+Gradient is a happy little website and free tool that lets you create a gradient background for websites.

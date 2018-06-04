@@ -25,7 +25,7 @@ importScripts(
 self.__precacheManifest = [
   {
     "url": "animations.html",
-    "revision": "05afb6c3aa30eeaf5e57509b25ce25b7"
+    "revision": "46744f46be84c00114592e4fc99839e9"
   },
   {
     "url": "build/fonts/fontawesome-webfont.af7ae505.woff2",
@@ -53,7 +53,7 @@ self.__precacheManifest = [
   },
   {
     "url": "colors.html",
-    "revision": "7dc4c5800798e6c691c8f604726cc362"
+    "revision": "82e3ecb154497c69fd394620b749b09c"
   },
   {
     "url": "icon/android-chrome-144x144.png",
@@ -233,7 +233,11 @@ self.__precacheManifest = [
   },
   {
     "url": "images.html",
-    "revision": "c5037a10d98f7dc65ed4ab04247a97ec"
+    "revision": "cd94ac08e6b42d55677cb91d66ed686c"
+  },
+  {
+    "url": "img/cool-background.png",
+    "revision": "32870204537240aab50a66ccfa068882"
   },
   {
     "url": "img/logo.png",
@@ -241,11 +245,15 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "07043839ea6fd21db814c9592ba58d9f"
+    "revision": "a8ba4e8292de932f1b45a97f23afa3db"
   },
   {
     "url": "service-worker.js",
-    "revision": "f08298dd8ead2afa0ee7e5d1d0d3c137"
+    "revision": "01a24d7140e760173beb677bc61c91ec"
+  },
+  {
+    "url": "tools.html",
+    "revision": "8f37d4519d20600f9e478081eea55122"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
