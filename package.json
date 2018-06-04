@@ -1,0 +1,45 @@
+{
+  "name": "disjfa.github.io",
+  "version": "0.1.0",
+  "description": "disjfa.github.io main page",
+  "main": "index.js",
+  "scripts": {
+    "dev": "encore dev --watch",
+    "prod": "encore production",
+    "serve": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build",
+    "favicon": "gulp favicon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disjfa/disjfa.github.io.git"
+  },
+  "keywords": [
+    "project",
+    "disjfa",
+    "html",
+    "css",
+    "sass",
+    "javascript"
+  ],
+  "author": "disjfa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/disjfa/disjfa.github.io/issues"
+  },
+  "homepage": "https://github.com/disjfa/disjfa.github.io#readme",
+  "dependencies": {
+    "@symfony/webpack-encore": "^0.20.1",
+    "bootstrap": "^4.1.1",
+    "fancy-log": "^1.3.2",
+    "favicons": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "popper.js": "^1.14.3",
+    "ryoko-headers": "^0.1.3",
+    "sass-loader": "^7.0.2",
+    "workbox-webpack-plugin": "^3.2.0"
+  }
+}

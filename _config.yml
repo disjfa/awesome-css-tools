@@ -1,0 +1,27 @@
+title: Awesome css tools
+email: disjfa@disjfa.nl
+description: >
+  A curated list of sites where you can create a piece of css or asset for your website. Curated by us!
+baseurl: "/awesome-css-tools"
+url: "https://disjfa.github.io"
+twitter_username: disjfa
+github_username:  disjfa
+github_url:  https://github.com/disjfa/awesome-css-tools
+github_base: /tree/master/site/
+
+markdown: kramdown
+host: 0.0.0.0
+
+google_analytics: UA-83598448-1
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - assets
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - README.md
+  - webpack.config.js
+  - gulpfile.js

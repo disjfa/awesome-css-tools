@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+
+{% include navbar.html %}
+
+<main role="main">
+    <div class="container py-3">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
+                <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+            </ol>
+        </nav>
+        <div class="row">
+            <div class="col-md-9 col-12">
+                <h1>{{ page.title }}</h1>
+                {% if page.lead %}
+                    <p class="lead">
+                        {{ page.lead }}
+                    </p>
+                {% endif %}
+                {{ content }}
+            </div>
+            <div class="col-md-3 col-12">
+                <h3>Other pages</h3>
+                {% for page in site.pages %}
+                    {% if page.type %}
+                        <a href="{{ page.url | prepend: site.baseurl }}" aria-label="Read more about {{ page.title }}" class="d-block pb-2">
+                            {{ page.title }}
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</main>
+
+{% include footer.html %}
+</body>
+</html>

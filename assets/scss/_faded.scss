@@ -1,0 +1,9 @@
+.faded {
+  opacity: .8;
+  transition: opacity .2s;
+
+  &:hover,
+  &:active {
+    opacity: .99;
+  }
+}

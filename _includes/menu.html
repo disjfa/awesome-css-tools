@@ -1,0 +1,24 @@
+{% for my_page in site.pages %}
+    {% if my_page.title %}
+        {% if my_page.group == include.group %}
+            {% if my_page.menu %}
+                {% assign my_submenu = false %}
+                {% if page.url contains my_page.url %}
+                    {% assign my_submenu = true %}
+                {% endif %}
+                <li class="sidebar-sub{% if my_submenu %} active{% endif %}">
+                    <a class="sidebar-link{% if my_submenu == false %} collapsed{% endif %}" href="#menu-{{ my_page.menu }}" data-toggle="collapse">{{ my_page.title }}</a>
+                    <ul class="sidebar-sub collapse{% if my_submenu %} in{% endif %}" id="menu-{{ my_page.menu }}">
+                        {% include menu.html group=my_page.menu %}
+                    </ul>
+                </li>
+            {% else %}
+                <li class="nav-item{% if my_page.url == page.url %} active{% endif %}">
+                    <a class="nav-link" href="{{ my_page.url | prepend: site.baseurl }}">
+                        {{ my_page.title }}
+                    </a>
+                </li>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endfor %}

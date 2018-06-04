@@ -1,0 +1,22 @@
+.project {
+  display: block;
+
+  @include media-breakpoint-up(md) {
+    display: flex;
+    margin-bottom: $spacer;
+
+    &-image {
+      flex: 1;
+    }
+    &-body {
+      flex: 2;
+      padding-left: $spacer;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    &-body {
+      flex: 3;
+    }
+  }
+}
