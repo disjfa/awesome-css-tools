@@ -249,11 +249,11 @@ self.__precacheManifest = [
   },
   {
     "url": "service-worker.js",
-    "revision": "71883ebbb63f514f690c425cfc408cbc"
+    "revision": "c0ba4b39e8126256e152d51c09fd860b"
   },
   {
     "url": "tools.html",
-    "revision": "385b1cd12122eb0f4d79ffad2e037afc"
+    "revision": "037629232caacee19dcc139085bdfc3a"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
